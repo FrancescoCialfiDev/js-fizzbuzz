@@ -7,10 +7,8 @@ console.clear();
 
 // Apertura di un Iterazione
 // Inizializzazione variabile - Condizione - Incremento
-let numeri;
 
 for (let numeri = 1; numeri <= 100; numeri++ ) {
-    console.log(numeri);
     
     
     if(numeri % 3 === 0 && numeri % 5 === 0 ) {
@@ -19,7 +17,8 @@ for (let numeri = 1; numeri <= 100; numeri++ ) {
         console.log("Fizz");
     } else if (numeri % 5 === 0){
         console.log("Buzz");
-    }  
+    } else {
+        console.log(`Il numero ${numeri} non sono divisibili per 3 o per 5`);
     
 }
 
