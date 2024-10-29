@@ -9,7 +9,7 @@ console.clear();
 // Inizializzazione variabile - Condizione - Incremento
 let numeri;
 
-for (let numeri = 1; numeri <= 100; numeri = numeri++ ) {
+for (let numeri = 1; numeri <= 100; numeri++ ) {
     console.log(numeri);
     
     
