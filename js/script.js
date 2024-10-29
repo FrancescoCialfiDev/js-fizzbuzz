@@ -22,4 +22,4 @@ for (let numeri = 1; numeri <= 100; numeri++ ) {
     
 }
 
-
+}
